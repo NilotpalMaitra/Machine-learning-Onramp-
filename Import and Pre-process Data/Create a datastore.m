@@ -1,0 +1,7 @@
+letterds = datastore("*_M_*.txt")
+data = read(letterds)
+plot(data.X,data.Y)
+data = read(letterds)
+plot(data.X,data.Y)
+data = readall(letterds)
+plot(data.X,data.Y)
